@@ -26,10 +26,10 @@ class MvSpider(scrapy.Spider):
                 quote = quote[0]
             else:
                 quote = ''
-            item['title'] = full_title.replace(u'\xa0', u'')
-            item['movie_info'] = ';'.join(movie_info).replace(' ', '').replace('\n', '').replace(u'\xa0', u'')
-            item['star'] = star[0].replace(u'\xa0', u'')
-            item['quote'] = quote.replace(u'\xa0', u'')
+            item['title'] = full_title
+            item['movie_info'] = ';'.join(movie_info).replace(' ', '').replace('\n', '')
+            item['star'] = star[0]
+            item['quote'] = quote
             yield item
         next_page = response.xpath('//span[@class="next"]/link/@href').extract()
         if next_page:
