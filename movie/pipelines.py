@@ -16,8 +16,8 @@ class MoviePipeline(object):
 
     def process_item(self, item, spider):
         try:
-            self.cursor.execute("insert into movie (name, movie_info, star, quote) VALUES ('%s', '%s', '%s', '%s')", (
-                item['title'], item['movie_info'], item['star'], item['quote']))
+            self.cursor.execute("insert into movie (title, movie_info, star, quote) VALUES ('{}', '{}', '{}', '{}');".
+                                format(item['title'], item['movie_info'], item['star'], item['quote']))
             self.conn.commit()
         except pymysql.Error:
             print("Error%s,%s,%s,%s" % (item['title'], item['movie_info'], item['star'], item['quote']))
