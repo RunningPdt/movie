@@ -11,12 +11,12 @@ class MvSpider(scrapy.Spider):
     def parse(self, response):
         item = MovieItem()
         for sel in response.xpath('//div[@class="info"]'):
-            title = sel.xpath('div[@class="hd"]/a/span/text()').extract()
+            title = sel.xpath('div[@class="hd"]/a/span/text()').extract()[0]
             print(title)
             full_title = ''
             for each in title:
                 full_title += each
-            movie_info = sel.xpath('div[@class="bd"]/p/text()').extract()
+            movie_info = sel.xpath('div[@class="bd"]/p/text()').extract()[0]
             print(movie_info)
             star = sel.xpath('div[@class="bd"]/div[@class="star"]/span[@class="rating_num"]/text()').extract()[0]
             print(star)
@@ -27,7 +27,8 @@ class MvSpider(scrapy.Spider):
             else:
                 quote = ''
             item['title'] = full_title
-            item['movie_info'] = ';'.join(movie_info).replace(' ', '').replace('\n', '')
+            # item['movie_info'] = ';'.join(movie_info).replace(' ', '').replace('\n', '')
+            item['movie_info'] = movie_info.replace(' ', '').replace('\n', '')
             item['star'] = star[0]
             item['quote'] = quote
             yield item

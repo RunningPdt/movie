@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0484e0be-4479-4fcb-b443-61ffbd004df2" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/spiders/mv.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie/spiders/mv.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,38 +16,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie/spiders/mv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="57">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/movie/settings.py">
+        <entry file="file://$PROJECT_DIR$/movie/spiders/mv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="376">
+              <caret line="29" column="90" lean-forward="true" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,9 +54,9 @@
         <option value="$PROJECT_DIR$/movie/spiders/dsfs.py" />
         <option value="$PROJECT_DIR$/movie/run.py" />
         <option value="$PROJECT_DIR$/movie/items.py" />
+        <option value="$PROJECT_DIR$/movie/settings.py" />
         <option value="$PROJECT_DIR$/movie/pipelines.py" />
         <option value="$PROJECT_DIR$/movie/spiders/mv.py" />
-        <option value="$PROJECT_DIR$/movie/settings.py" />
       </list>
     </option>
   </component>
@@ -154,7 +136,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="mv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="movie" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movie/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movie/spiders/mv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="movie" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +182,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.mv" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576225286922</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test">
+      <created>1576226539637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576226539637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -270,14 +281,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="203" y="116" width="1530" height="902" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22922252" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997396" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934132" />
@@ -414,10 +426,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/python/Lib/site-packages/chardet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/twisted/python/failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="372" selection-start-line="372" selection-end-line="372" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/python/Lib/site-packages/scrapy/item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="145">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="663" selection-start-line="663" selection-end-line="663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -430,32 +477,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="57">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/movie/spiders/mv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+        <state relative-caret-position="376">
+          <caret line="29" column="90" lean-forward="true" selection-start-line="29" selection-start-column="90" selection-end-line="29" selection-end-column="90" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/movie/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
