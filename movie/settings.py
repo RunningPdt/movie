@@ -19,8 +19,6 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:55.0) Gecko/20100
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-# 修改编码为utf-8
-FEED_EXPORT_ENCODING = 'utf-8'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
