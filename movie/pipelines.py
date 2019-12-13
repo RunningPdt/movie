@@ -20,5 +20,5 @@ class MoviePipeline(object):
                                 format(item['title'], item['movie_info'], item['star'], item['quote']))
             self.conn.commit()
         except pymysql.Error:
-            print("Error%s,%s,%s,%s" % (item['title'], item['movie_info'], item['star'], item['quote']))
+            print("Error'{}','{}','{}','{}'".format(item['title'], item['movie_info'], item['star'], item['quote']))
         return item
