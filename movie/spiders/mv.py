@@ -23,7 +23,7 @@ class MvSpider(scrapy.Spider):
             else:
                 quote = ''
             item['title'] = full_title
-            item['movieInfo'] = ';'.join(movie_info).replace(' ', '').replace('\n', '')
+            item['movie_info'] = ';'.join(movie_info).replace(' ', '').replace('\n', '')
             item['star'] = star[0]
             item['quote'] = quote
             yield item
