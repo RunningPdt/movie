@@ -11,8 +11,8 @@ class MoviePipeline(object):
     def __init__(self):
         self.conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='Hc520Wby', db='huangchong')
         self.cursor = self.conn.cursor()
-        self.cursor.execute("truncate table movie")
-        self.conn.commit()
+        # self.cursor.execute("truncate table movie")  # 清空表数据
+        # self.conn.commit()
 
     def process_item(self, item, spider):
         try:
