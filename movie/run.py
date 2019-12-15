@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# encoding:utf-8
 # !/usr/bin/python
 
 from scrapy import cmdline
